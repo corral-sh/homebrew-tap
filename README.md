@@ -6,7 +6,7 @@ agents inside isolated per-project Lima VMs on macOS.
 ```bash
 brew tap corral-sh/tap
 brew trust corral-sh/tap   # Homebrew >= 6 requires third-party taps to be trusted explicitly
-brew install corral
+brew install corral-sh/tap/corral
 ```
 
 The formula builds `corral` from the tagged source of the main repository —
